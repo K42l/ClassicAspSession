@@ -18,7 +18,7 @@ builder.Services.AddHttpClient("AspSession")
 	});
 ```
 
-And the just use the GetAspSession passing the HttpContext:
+And then just use the GetAspSession passing the HttpContext:
 
 ``` c#
 var currentContext = HttpContext.Request.HttpContext;
